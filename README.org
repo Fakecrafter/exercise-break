@@ -1,2 +1,11 @@
+* Introduction
+  this is a program that picks a random exercise from a file and then changes their scores. So everytime it actually just picks the exercise with the most points. If you want to understand it, just look into the code.
+  Then you can create a cronjob which run every hour or so and executes the program, so that you take a break from work or whatever.
+  #+BEGIN_SRC shell
+  $ crontab -e
+
+  0 * * * * xuserrun python path/to/this/program
+  #+END_SRC
+  you also need to install xuserrun from the AUR. you will figure it out ...
 * Exercises
   you can add your exercises in the .csv file
