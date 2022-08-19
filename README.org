@@ -1,0 +1,2 @@
+* Exercises
+  you can add your exercises in the .csv file
